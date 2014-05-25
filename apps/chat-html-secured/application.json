@@ -90,7 +90,7 @@
             allowedRoles: [ "chat-html-secured/user" ]
           },
           {
-            uriPattern: "/chat-html-secured/storage/chat",
+            uriPattern: "/chat-html-secured/storage/chat/*",
             requestTypes: [ "CREATE" ],
             allowedRoles: [ "chat-html-secured/user" ]
           }

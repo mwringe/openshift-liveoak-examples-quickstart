@@ -54,7 +54,7 @@
         autoRules: [
           {
             resourcePath: "/chat-html-secured/storage/chat",
-            autoAddedOwnerPermissions: [ "DELETE" ]
+            autoAddedOwnerPermissions: [ "READ", "UPDATE", "DELETE" ]
           }
         ]
       }
